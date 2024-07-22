@@ -307,8 +307,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Gaire]
-  first_name: [Rebati Raman, Rebati, R., R. R.]
+  last_name: [Subedi]
+  first_name: [Ronast, R.,]
 
   style: apa
   locale: en

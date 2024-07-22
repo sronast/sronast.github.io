@@ -1,0 +1,273 @@
+{
+  "basics": {
+    "name": "Rebati Raman Gaire",
+    "email": "rgaire2@unl.edu",
+    "phone": "(+1) (531) 254 - 8800",
+    "url": "https://rrgaire.com.np",
+    "summary": "A computer vision enthusiast with experience in machine learning and software engineering.",
+    "location": {
+      "address": "1340 F St, Apt 302",
+      "postalCode": "68508",
+      "city": "Lincoln",
+      "countryCode": "US",
+      "region": "Nebraska"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "rrgaire",
+        "url": "https://linkedin.com/in/rrgaire"
+      },
+      {
+        "network": "GitHub",
+        "username": "rrgaire",
+        "url": "https://github.com/rrgaire"
+      }
+    ]
+  },
+  "work": [ 
+    {
+      "name": "School of Computing, UNL",
+      "position": "Graduate Research Assistant",
+      "url": "https://example.com",
+      "startDate": "Jan 2023",
+      "endDate": "Present",
+      "summary": "",
+      "highlights": [ "Implemented cutting-edge compression techniques for model quantization, knowledge distillation, and weight sharing in neural networks, significantly reducing compute parameters and energy consumption while upholding competitive performance standards.",
+        "Conceptualized, implemented, and presented pioneering research on compressing deep learning models with integrated active learning, achieving a notable 3.62% accuracy improvement over baseline using only 60% of training samples."
+      ]
+    },
+    {
+      "name": "Redev Technology",
+      "position": "Software Engineer - Computer Vision",
+      "url": "https://example.com",
+      "startDate": "Apr 2021",
+      "endDate": "Dec 2022",
+      "summary": "",
+      "highlights": [
+        "Orchestrated the implementation of contemporary Active Learning pipelines, integrating cutting-edge algorithms such as Coreset, Learning Loss, and Vision transformer, resulting in a remarkable reduction of up to 30% in annotation costs for computer vision tasks.",
+        "Spearheaded the development of a comprehensive deep learning system covering all stages from data collection, annotation, processing, training to evaluation, facilitating smart city initiatives by enabling robust detection of persons and vehicles, smoke and fire across diverse environmental conditions, including varying geography, occlusion, lighting, and weather scenarios."
+      ]
+    },
+    {
+      "name": "NAAMII",
+      "position": "Computer Vision Research Engineer",
+      "url": "https://example.com",
+      "startDate": "Apr 2021",
+      "endDate": "Dec 2022",
+      "summary": "",
+      "highlights": [
+        "Introduced a novel self-supervised multi-task learning framework for medical image semantic segmentation, demonstrating a notable performance boost of up to 2.5% in popular models like UNet and U2Net.",
+        "Successfully collaborated with multiple researchers on pioneering research in advanced deep federated learning techniques for cross-domain surgical image segmentation.",
+        "Showcased adeptness in teamwork by closely partnering with supervisors to generate innovative research concepts, providing valuable insights, and contributing to the development of grant proposals to secure funding for research initiatives."
+      ]
+    },
+    {
+      "name": "Genese Cloud Academy",
+      "position": "AWS AI/ML Intern",
+      "url": "https://example.com",
+      "startDate": "Jun 2020",
+      "endDate": "Sep 2020",
+      "summary": "",
+      "highlights": [
+        "Gained proficiency in utilizing diverse AWS services including EC2, S3, Lambda, Sagemaker, Lex, Rekognition, and Polly.",
+        "Successfully executed machine learning assignments and projects utilizing AWS services."
+      ]
+    },
+    {
+      "name": "UBL R&D Center",
+      "position": "Software Developer Intern",
+      "url": "https://example.com",
+      "startDate": "May 2019",
+      "endDate": "Nov 2019",
+      "highlights": ["Engineered and deployed a robust user management platform integrated with the PostgreSQL database for a full-stack web application for an innovative image annotation tool."]
+    }
+    
+  ],
+
+  "volunteer": [
+    {
+      "organization": "People's Climate March",
+      "location": "Zurich, Switzerland",
+      "position": "Lead Organizer",
+      "url": "https://example.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Nobel Prize in Physics",
+      "date": "1921-11-01",
+      "awarder": "Royal Swedish Academy of Sciences",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Machine Learning",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Quantum Computing",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Quantum Information",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-envelope"
+    },
+    {
+      "name": "Quantum Cryptography",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Quantum Communication",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-calendar"
+    },
+    {
+      "name": "Quantum Teleportation",
+      "date": "2018-01-01",
+      "issuer": "Stanford University",
+      "url": "https://example.com",
+      "icon": "fa-solid fa-clipboard-check"
+    }
+  ],
+  "publications": [
+    {
+      "name": "SenTer: A reconfigurable processing-in-sensor architecture enabling efficient ternary MLP",
+      "publisher": "Proceedings of the Great Lakes Symposium on VLSI 2023",
+      "releaseDate": "2023",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3386263.3386241"
+    },
+    {
+      "name": "A client-server deep federated learning for cross-domain surgical image segmentation",
+      "publisher": "MICCAI Workshop on Data Engineering in Medical Imaging",
+      "releaseDate": "2023",
+      "url": "https://arxiv.org/pdf/2306.08720"
+    },
+    {
+      "name": "Placental vessel segmentation and registration in fetoscopy: literature review and MICCAI FetReg2021 challenge findings",
+      "publisher": "Medical Image Analysis",
+      "releaseDate": "2023",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1361841523003262"
+    },
+    {
+      "name": "Why is the winner the best?",
+      "publisher": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2023)",
+      "releaseDate": "2023",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Eisenmann_Why_Is_the_Winner_the_Best_CVPR_2023_paper.html"
+    },
+    {
+      "name": "Histogram of oriented gradients meet deep learning: A novel multi-task deep network for 2D surgical image semantic segmentation",
+      "publisher": "Medical Image Analysis",
+      "releaseDate": "2023",
+      "url": "https://github.com/rrgaire/medical_image_segmentation"
+    },
+    {
+      "name": "EnCoDe: Enhancing Compressed Deep Learning Models Through Feature Distillation and Informative Sample Selection",
+      "authors": "Rebati Gaire",
+      "publisher": "2023 International Conference on Machine Learning and Applications (ICMLA)",
+      "releaseDate": "2023",
+      "url": "https://ieeexplore.ieee.org/document/10459788"
+    },
+    {
+      "name": "GAN-Based Two-Step Pipeline for Real-World Image Super-Resolution",
+      "authors": "Rebati Gaire",
+      "publisher": "ICT with Intelligent Applications: Proceedings of ICTIS 2021",
+      "releaseDate": "2022",
+      "url": "https://link.springer.com/chapter/10.1007/978-981-16-4177-0_75"
+    }
+  ],
+  "skills": [
+      {
+        "name": "Programming Language",
+        "level": "Expert",
+        "icon": "fa-solid fa-hashtag",
+        "keywords": "Python, JavaScript, C/C++, SQL, Matlab"
+      },
+      {
+        "name": "Web Frameworks",
+        "level": "Expert",
+        "icon": "fa-solid fa-hashtag",
+        "keywords": "Django, Flask, ReactJS, NodeJS"
+      },
+      {
+        "name": "ML Libraries",
+        "level": "Expert",
+        "icon": "fa-solid fa-hashtag",
+        "keywords": "Pytorch, Tensorflow, Keras, Scikit-Learn, OpenCV, Pandas, NumPy, SciPy, NLTK"
+      },
+      {
+        "name": "Other Tools",
+        "level": "Expert",
+        "icon": "fa-solid fa-hashtag",
+        "keywords": "Linux, Git, Docker, Tensorflow Serving, AWS, LateX, Matplotlib, Seaborn"
+      }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Physics",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Quantum Mechanics",
+        "Quantum Computing",
+        "Quantum Information",
+        "Quantum Cryptography",
+        "Quantum Communication",
+        "Quantum Teleportation"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    },
+    {
+      "name": "Professor John Doe",
+      "icon": "fa-solid fa-thumbtack",
+      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Quantum Computing",
+      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "url": "https://example.com"
+    }
+  ]
+}

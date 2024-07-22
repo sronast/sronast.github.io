@@ -1,0 +1,81 @@
+  ---
+  ---
+
+  
+  @inproceedings{subedi2023client,
+    title={A client-server deep federated learning for cross-domain surgical image segmentation},
+    author={Subedi, Ronast and Gaire, Rebati Raman and Ali, Sharib and Nguyen, Anh and Stoyanov, Danail and Bhattarai, Binod},
+    booktitle={MICCAI Workshop on Data Engineering in Medical Imaging},
+    pages={21--33},
+    year={2023},
+    bibtex_show={true},
+    pdf={https://arxiv.org/pdf/2306.08720},
+    abstract={This paper presents a solution to the cross-domain adaptation problem for 2D surgical image segmentation, explicitly considering the privacy protection of distributed datasets belonging to different centers. Deep learning architectures in medical image analysis necessitate extensive training data for better generalization. However, obtaining sufficient diagnostic and surgical data is still challenging, mainly due to the inherent cost of data curation and the need of experts for data annotation. Moreover, increased privacy and legal compliance concerns can make data sharing across clinical sites or regions difficult. Another ubiquitous challenge the medical datasets face is inevitable domain shifts among the collected data at the different centers. To this end, we propose a Client-server deep federated architecture for cross-domain adaptation. A server hosts a set of immutable parameters common to both the source and target domains. The clients consist of the respective domain-specific parameters and make requests to the server while learning their parameters and inferencing. We evaluate our framework in two benchmark datasets, demonstrating applicability in computer-assisted interventions for endoscopic polyp segmentation and diagnostic skin lesion detection and analysis. Our extensive quantitative and qualitative experiments demonstrate the superiority of the proposed method compared to competitive baseline and state-of-the-art methods. We will make the code available upon the paper’s acceptance.},
+    preview={demi.jpg},
+    google_scholar_id={Tyk-4Ss8FVUC},
+    organization={Springer},
+    
+  }
+
+  @article{bhattarai2023histogram,
+    title={Histogram of oriented gradients meet deep learning: A novel multi-task deep network for 2D surgical image semantic segmentation},
+    author={Bhattarai, Binod and Subedi, Ronast and Gaire, Rebati Raman and Vazquez, Eduard and Stoyanov, Danail},
+    journal={Medical Image Analysis},
+    volume={85},
+    code={https://github.com/rrgaire/medical_image_segmentation},
+    bibtex_show={true},
+    pages={102747},
+    year={2023},
+    publisher={Elsevier},
+    google_scholar_id={9yKSN-GCB0IC},
+    pdf={https://www.sciencedirect.com/science/article/pii/S1361841523000087},
+    abstract={We present our novel deep multi-task learning method for medical image segmentation. Existing multi-task methods demand ground truth annotations for both the primary and auxiliary tasks. Contrary to it, we propose to generate the pseudo-labels of an auxiliary task in an unsupervised manner. To generate the pseudo-labels, we leverage Histogram of Oriented Gradients (HOGs), one of the most widely used and powerful hand-crafted features for detection. Together with the ground truth semantic segmentation masks for the primary task and pseudo-labels for the auxiliary task, we learn the parameters of the deep network to minimize the loss of both the primary task and the auxiliary task jointly. We employed our method on two powerful and widely used semantic segmentation networks: UNet and U2Net to train in a multi-task setup. To validate our hypothesis, we performed experiments on two different medical image segmentation data sets. From the extensive quantitative and qualitative results, we observe that our method consistently improves the performance compared to the counter-part method. Moreover, our method is the winner of FetReg Endovis Sub-challenge on Semantic Segmentation organised in conjunction with MICCAI 2021. Code and implementation details are available at:
+  https://github.com/thetna/medical_image_segmentation
+  .},
+    preview={hog.jpg},
+    selected={true}
+  }
+
+  @inproceedings{eisenmann2023winner,
+    title={Why is the winner the best?},
+    author={Eisenmann, Matthias and Reinke, Annika and Weru, Vivienn and Tizabi, Minu D and Isensee, Fabian and Adler, Tim J and Ali, Sharib and Andrearczyk, Vincent and Aubreville, Marc and Baid, Ujjwal and others},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    pages={19955--19966},
+    bibtex_show={true},
+    year={2023},
+    abstract={International benchmarking competitions have become fundamental for the comparative performance assessment of image analysis methods. However, little attention has been given to investigating what can be learnt from these competitions. Do they really generate scientific progress? What are common and successful participation strategies? What makes a solution superior to a competing method? To address this gap in the literature, we performed a multi-center study with all 80 competitions that were conducted in the scope of IEEE ISBI 2021 and MICCAI 2021. Statistical analyses performed based on comprehensive descriptions of the submitted algorithms linked to their rank as well as the underlying participation strategies revealed common characteristics of winning solutions. These typically include the use of multi-task learning (63%) and/or multi-stage pipelines (61%), and a focus on augmentation (100%), image preprocessing (97%), data curation (79%), and postprocessing (66%). The "typical" lead of a winning team is a computer scientist with a doctoral degree, five years of experience in biomedical image analysis, and four years of experience in deep learning. Two core general development strategies stood out for highly-ranked teams: the reflection of the metrics in the method design and the focus on analyzing and handling failure cases. According to the organizers, 43% of the winning algorithms exceeded the state of the art but only 11% completely solved the respective domain problem. The insights of our study could help researchers (1) improve algorithm development strategies when approaching new problems, and (2) focus on open research questions revealed by this work.},
+    pdf={https://openaccess.thecvf.com/content/CVPR2023/html/Eisenmann_Why_Is_the_Winner_the_Best_CVPR_2023_paper.html},
+    google_scholar_id={2osOgNQ5qMEC},
+    preview={cvpr.jpg},
+    selected={true}
+  }
+
+  @article{bano2023placental,
+    title={Placental vessel segmentation and registration in fetoscopy: literature review and MICCAI FetReg2021 challenge findings},
+    author={Bano, Sophia and Casella, Alessandro and Vasconcelos, Francisco and Qayyum, Abdul and Benzinou, Abdesslam and Mazher, Moona and Meriaudeau, Fabrice and Lena, Chiara and Cintorrino, Ilaria Anita and De Paolis, Gaia Romana and others},
+    journal={Medical Image Analysis},
+    pages={103066},
+    year={2023},
+    bibtex_show={true},
+    publisher={Elsevier},
+    google_scholar_id={d1gkVwhDpl0C},
+    pdf={https://www.sciencedirect.com/science/article/pii/S1361841523003262},
+    abstract={Fetoscopy laser photocoagulation is a widely adopted procedure for treating Twin-to-Twin Transfusion Syndrome (TTTS). The procedure involves photocoagulation pathological anastomoses to restore a physiological blood exchange among twins. The procedure is particularly challenging, from the surgeon’s side, due to the limited field of view, poor manoeuvrability of the fetoscope, poor visibility due to amniotic fluid turbidity, and variability in illumination. These challenges may lead to increased surgery time and incomplete ablation of pathological anastomoses, resulting in persistent TTTS. Computer-assisted intervention (CAI) can provide TTTS surgeons with decision support and context awareness by identifying key structures in the scene and expanding the fetoscopic field of view through video mosaicking. Research in this domain has been hampered by the lack of high-quality data to design, develop and test CAI algorithms. Through the Fetoscopic Placental Vessel Segmentation and Registration (FetReg2021) challenge, which was organized as part of the MICCAI2021 Endoscopic Vision (EndoVis) challenge, we released the first large-scale multi-center TTTS dataset for the development of generalized and robust semantic segmentation and video mosaicking algorithms with a focus on creating drift-free mosaics from long duration fetoscopy videos. For this challenge, we released a dataset of 2060 images, pixel-annotated for vessels, tool, fetus and background classes, from 18 in-vivo TTTS fetoscopy procedures and 18 short video clips of an average length of 411 frames for developing placental scene segmentation and frame registration for mosaicking techniques. Seven teams participated in this challenge and their model performance was assessed on an unseen test dataset of 658 pixel-annotated images from 6 fetoscopic procedures and 6 short clips. For the segmentation task, overall baseline performed was the top performing (aggregated mIoU of 0.6763) and was the best on the vessel class (mIoU of 0.5817) while team RREB was the best on the tool (mIoU of 0.6335) and fetus (mIoU of 0.5178) classes. For the registration task, overall the baseline performed better than team SANO with an overall mean 5-frame SSIM of 0.9348. Qualitatively, it was observed that team SANO performed better in planar scenarios, while baseline was better in non-planner scenarios. The detailed analysis showed that no single team outperformed on all 6 test fetoscopic videos. The challenge provided an opportunity to create generalized solutions for fetoscopic scene understanding and mosaicking. In this paper, we present the findings of the FetReg2021 challenge, alongside reporting a detailed literature review for CAI in TTTS fetoscopy. Through this challenge, its analysis and the release of multi-center fetoscopic data, we provide a benchmark for future research in this field.},
+    preview={fetreg.jpg},
+    selected={true}
+  }
+
+  @inproceedings{gaire2022gan,
+    title={GAN-Based Two-Step Pipeline for Real-World Image Super-Resolution},
+    author={Gaire, Rebati Raman and Subedi, Ronast and Sharma, Ashim and Subedi, Shishir and Ghimire, Sharad Kumar and Shakya, Subarna},
+    booktitle={ICT with Intelligent Applications: Proceedings of ICTIS 2021, Volume 1},
+    pages={763--772},
+    year={2022},
+    organization={Springer},
+    code={https://github.com/rrgaire/Real-World-Image-SR},
+    bibtex_show={true},
+    abstract={Mostly, the prior works on single image super-resolution are dependent on high-resolution image and their bicubically downsampled low-resolution image pairs. Such methods have achieved outstanding results in single image super-resolution. Yet, these methods struggle to generalize real-world low-resolution images. Real-world low-resolution images have large varieties of degradation, and modeling these degradation accurately is a challenging task. Although some works have been proposed to address this problem, their results still lack fine perceptual details. Here, we use a GAN-based two-step pipeline to address this challenging problem of real-world image super-resolution. At first, we train a GAN network that transforms real-world low-resolution images to a space of bicubic images of the same size. This network is trained on real-world low-resolution images as input and bicubically downsampled version of their corresponding high-resolution images as ground truth. Then, we employ the nESRGAN+ network trained on bicubically downsampled low-resolution and high-resolution image pairs to super-resolve the transformed bicubic alike images. Hence, the first network transforms the wide varieties of degraded images into the bicubic space, and the second network upscales the first output by the factor of four. We show the effectiveness of this work by evaluating its output on various benchmark test datasets and comparing our results with other works. We also show that our work outperforms prior works in both qualitative and quantitative comparison. We have published our source code and trained models here for further research and improvement.},
+    preview={ictis.jpg},
+    google_scholar_id={u5HHmVD_uO8C},
+    pdf={https://link.springer.com/chapter/10.1007/978-981-16-4177-0_75},
+  }

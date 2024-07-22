@@ -1,0 +1,175 @@
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Ronast Subedi
+#     # - name: Date of Birth
+#     #   value: 14th April 1998
+#     - name: Adress
+#       value: Tallahassee, FL, USA
+#     - name: Email
+#       value: <a href="mailto:rs22ce@fsu.edu">rs22ce@fsu.edu</a>
+#     - name: LinkedIn
+#       value: <a href="https://www.linkedin.com/in/sronast/">linkedin.com/in/sronast</a>
+#     - name: GitHub
+#       value: <a href="https://www.github.com/sronast/">github.com/sronast</a>
+#     - name: Google Scholar
+#       value: <a href="https://scholar.google.com/citations?hl=en&user=ky1Tq6QAAAAJ">sronast</a>
+
+# - title: Education
+#   type: time_table
+#   contents:
+#     - title: MS/Thesis in Computer Science
+#       institution: University of Nebraska-Lincoln, Lincoln, NE, USA
+#       year: Jan 2023 - Dec 2024
+#       description:
+#         - Award - Most Improved Master's Student
+#         - Courses - Design and Analysis of Algorithm, Design and Analysis of Efficient Algorithm (Advanced), Introduction to Deep Learning, Advanced Software Engineering, Computer Architecture, Hardware-Software Acceleration for Machine Learning 
+#         # - title: Description 3.
+#         #   contents:
+#         #     - Sub-description 1.
+#         #     - Sub-description 2.
+#     - title: BE in Computer Engineering
+#       institution: Tribhuvan University, IOE, Pulchowk Campus
+#       year: Nov 2016 - Apr 2021
+#       description:
+#         - Award - Merit-based scholarship for undergraduate studies
+#         - Courses - Computer Programming in C, Object Oriented Programming with C++, Theory of Computation, Data Structure and Algorithm, Discrete Mathematics, Calculus-I, Calculus-II, Probability and Statistics, Object Oriented Analysis and Design, Artificial Intelligence, Database Management System, Distributed System, Computer Networks and Security, Digital Signal Analysis and Processing, Simulation and Modeling, Internet and Intranet, Information System
+
+# - title: Experiences
+#   type: time_table
+#   contents:
+#     - title: Graduate Research Assistant
+#       institution: School of Computing, UNL, Lincoln, USA
+#       year: Jan 2023 - Present
+#       description:
+#         - Implemented cutting-edge compression techniques for model quantization, knowledge distillation, and weight sharing in neural networks, significantly reducing compute parameters and energy consumption while upholding competitive performance standards.
+#         - Conceptualized, implemented, and presented pioneering research on compressing deep learning models with integrated active learning, achieving a notable 3.62% accuracy improvement over baseline using only 60% of training samples.
+ 
+#     - title: Software Engineer - Computer Vision
+#       institution: Redev Technology, London, UK
+#       year: Apr 2021 - Dec 2022   
+#       description:
+#         - Orchestrated the implementation of contemporary Active Learning pipelines, integrating cutting-edge algorithms such as Coreset, Learning Loss, and Vision transformer, resulting in a remarkable reduction of up to 30% in annotation costs for computer vision tasks.
+#         - Spearheaded the development of a comprehensive deep learning system covering all stages from data collection, annotation, processing, training to evaluation, facilitating smart city initiatives by enabling robust detection of persons and vehicles, smoke and fire across diverse environmental conditions, including varying geography, occlusion, lighting, and weather scenarios.
+
+#     - title: Computer Vision Research Engineer
+#       institution: NAAMII, Kathmandu, Nepal
+#       year: Apr 2021 - Dec 2022
+#       description:
+#         - Introduced a novel self-supervised multi-task learning framework for medical image semantic segmentation, demonstrating a notable performance boost of up to 2.5% in popular models like UNet and U2Net.
+#         - Successfully collaborated with multiple researchers on pioneering research in advanced deep federated learning techniques for cross-domain surgical image segmentation
+#         - Showcased adeptness in teamwork by closely partnering with supervisors to generate innovative research concepts, providing valuable insights, and contributing to the development of grant proposals to secure funding for research initiatives.
+    
+#     - title: AWS AI/ML Interestship
+#       institution: Genese Cloud Academy, Lalitpur, Nepal
+#       year: Jun 2020 - Sep 2020
+#       description:
+#         - Gained proficiency in utilizing diverse AWS services including EC2, S3, Lambda, Sagemaker, Lex, Rekognition, and Polly.
+#         - Successfully executed machine learning assignments and projects utilizing AWS services.
+
+#     - title: Software Developer Intern
+#       institution: UBL R&D Center, Lalitpur, Nepal
+#       year: May 2019 - Nov 2019
+#       description:
+#         - Engineered and deployed a robust user management platform integrated with the PostgreSQL database for a full-stack web application for an innovative image annotation tool.
+
+# - title: Publications
+#   type: time_table
+#   contents:
+
+#     - title: <a href="https://ieeexplore.ieee.org/document/10459788"> EnCoDe - Enhancing Compressed Deep Learning Models Through Feature Distillation and Informative Sample Selection</a>
+#       year: 2023
+#       description: 2023 International Conference on Machine Learning and Applications (ICMLA)
+
+#     - title: <a href="https://www.sciencedirect.com/science/article/pii/S1361841523000087"> Histogram of oriented gradients meet deep learning - A novel multi-task deep network for 2D surgical image semantic segmentation</a>
+#       year: 2023
+#       description: Medical Image Analysis Journal
+
+#     - title: <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Eisenmann_Why_Is_the_Winner_the_Best_CVPR_2023_paper.html">Why is the winner the best?</a>
+#       year: 2023
+#       description: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+
+#     - title: <a href="https://www.sciencedirect.com/science/article/pii/S1361841523003262"> Placental vessel segmentation and registration in fetoscopy - literature review and MICCAI FetReg2021 challenge findings</a>
+#       year: 2023
+#       description: Medical Image Analysis Journal
+
+#     - title: <a href="https://arxiv.org/pdf/2306.08720"> A client-server deep federated learning for cross-domain surgical image segmentation</a>
+#       year: 2023
+#       description: MICCAI Workshop on Data Engineering in Medical Imaging
+
+#     - title: <a href="https://dl.acm.org/doi/pdf/10.1145/3583781.3590225"> SenTer - A reconfigurable processing-in-sensor architecture enabling efficient ternary MLP </a>
+#       year: 2023
+#       description: Proceedings of the Great Lakes Symposium on VLSI 2023
+
+#     - title: <a href="https://link.springer.com/chapter/10.1007/978-981-16-4177-0_75">GAN-Based Two-Step Pipeline for Real-World Image Super-Resolution</a>
+#       year: 2023
+#       description: ICT with Intelligent Applications - Proceedings of ICTIS 2021
+
+# - title: Skills
+#   type: nested_list
+#   contents:
+#     - title: Programming Language
+#       items:
+#         - Python, JavaScript, C/C++, SQL, Matlab
+#     - title: Web Frameworks
+#       items:
+#         - Django, Flask, ReactJS, NodeJS
+#     - title: ML Libraries
+#       items:
+#         - Pytorch, Tensorflow, Keras, Scikit-Learn, OpenCV, Pandas, NumPy, SciPy, NLTK 
+#     - title: Other Tools
+#       items:
+#         - Linux, Git, Docker, Tensorflow Serving, AWS, LateX, Matplotlib, Seaborn
+
+    
+
+
+# - title: Open Source Projects
+#   type: time_table
+#   contents:
+
+#     - title: <a href="https://github.com/rrgaire/EnCoDe">EnCoDe</a>
+#       year: 2023
+#       description: EnCoDe merges active learning, model compression, and knowledge distillation to optimize deep learning models for edge devices. This technique addresses issues such as generalization loss, resource intensity, and data redundancy that often affect compressed models.
+
+#     - title: <a href="https://github.com/rrgaire/medical_image_segmentation">Medical Image Segmentation</a>
+#       year: 2022
+#       description: Winner of the FetReg 2021 challenge at MICCAI 2021 that uses a novel deep multi-task learning method for medical image segmentation leveraging Histogram of Oriented Gradients (HOGs) to generate pseudo-labels.
+
+#     - title: <a href="https://github.com/rrgaire/Real-World-Image-SR">Real-ImageSR</a>
+#       year: 2021
+#       description: A GAN-based two step pipeline for enhancing the resolution of real-word low resolution image by the scale factor of 4. First, the R2B generator transforms real-world LR images to bicubic alike images. Then the nESRGAN+ network super-scales the output of the R2B generator.
+
+#     - title: <a href="https://github.com/rrgaire/ImageSuperResolutionGAN">Image Super-Resolution</a>
+#       year: 2021
+#       description: A full-stack web app to serve the GAN-based real-image super-resolution model using ReactJS, Flask and Tensorflow Serving with Docker 
+
+#     - title: <a href="https://github.com/rrgaire/ThesisDocumentGenerator">Document Automator</a>
+#       year: 2021
+#       description: A Django-based web application to automate the document creation and management of MSC thesis programs in DOECE, IOE, Pulchowk Campus with a centralized PostgreSQL database fro managing records of the program, students, and faculties.
+
+
+
+
+
+# - title: Achievements
+#   type: time_table
+#   contents:
+#     - year: 2024
+#       items:
+#         - Published four conference papers and two journal papers, amassing over 57 citations.
+#     - year: 2024
+#       items:
+#         - Awarded the "Most Improved Master's Student" by the School of Computing at UNL.
+#     - year: 2022
+#       items:
+#         - Secured first place in the EndoVis Fetreg challenge at MICCAI 2021.
+#     - year: 2021
+#       items:
+#         - Granted a scholarship to attend the prestigious PRAIRIE / MIAI AI Summer School (PAISS) 2021.
+#     - year: 2016
+#       items:
+#         - Ranked 14th out of over 12,000 candidates in IOE’s Nationwide BE Entrance Exam, earning a merit-based scholarship for undergraduate studies in Computer Engineering.
+
+

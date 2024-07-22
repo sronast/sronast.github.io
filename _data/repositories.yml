@@ -1,0 +1,11 @@
+github_users:
+  - sronast
+
+repo_description_lines_max: 3
+
+github_repos:
+  - sronast/Real-World-Image-SR 
+  - sronast/Real-World-Image-SR
+  - sronast/medical_image_segmentation 
+  # - rrgaire/ThesisDocumentGenerator 
+

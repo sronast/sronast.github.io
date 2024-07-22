@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted at ["GAN-Based Two-Step Pipeline for Real-World Image Super-Resolution"](https://link.springer.com/chapter/10.1007/978-981-16-4177-0_75) at ICTIS 2021.
+Paper accepted: ["GAN-Based Two-Step Pipeline for Real-World Image Super-Resolution"](https://link.springer.com/chapter/10.1007/978-981-16-4177-0_75) at ICTIS 2021.

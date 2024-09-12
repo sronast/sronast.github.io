@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 3
-cv_pdf: Resume_Ronast.pdf
+cv_pdf: Resume_Ronast_Subedi.pdf
 description: Last updated on July 21, 2024.
 # toc:
 #   sidebar: right

@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-02-15 07:59:00-0400
+date: 2023-09-25 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Our paper [" Client-server Deep Federated Learning for Cross-domain Surgical Image Segmentation"](https://doi.org/10.1145/3583781.3590225) accepted at [DEMI MICCAI 2023](https://link.springer.com/chapter/10.1007/978-3-031-44992-5_3).
+Our paper [" Empowering Active Learning for 3D Molecular Graphs with Geometric Graph Isomorphism"](https://openreview.net/pdf?id=He2GCHeRML) accepted at [NeurIPS 2024](https://neurips.cc/Conferences/2024).

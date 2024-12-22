@@ -4,7 +4,7 @@ github_users:
 repo_description_lines_max: 3
 
 github_repos:
-  - sronast/Real-World-Image-SR 
+  - sronast/al_3dgraph
   - sronast/Real-World-Image-SR
   - sronast/medical_image_segmentation 
   # - rrgaire/ThesisDocumentGenerator 

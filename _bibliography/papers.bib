@@ -1,6 +1,33 @@
   ---
   ---
-
+@article{subedi2024empowering,
+  title={Empowering Active Learning for 3D Molecular Graphs with Geometric Graph Isomorphism},
+  author={Subedi, Ronast and Wei, Lu and Gao, Wenhan and Chakraborty, Shayok and Liu, Yi},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={55507--55537},
+  year={2024},
+  abstract={Molecular learning is pivotal in many real-world applications, such as drug discovery. Supervised learning requires heavy human annotation, which is particularly
+challenging for molecular data; e.g., the commonly used density functional theory
+(DFT) is highly computationally expensive. Active learning (AL) automatically
+queries labels for the most informative samples, thereby remarkably alleviating
+the annotation hurdle. In this paper, we present a principled AL paradigm for
+molecular learning, where we treat molecules as 3D molecular graphs. Specifically,
+we propose a new diversity sampling method to eliminate mutual redundancy
+built on distributions of 3D geometries. We first propose a set of new 3D graph
+isometries for 3D graph isomorphism analysis. Our method is provably at least
+as expressive as the Geometric Weisfeiler-Lehman (GWL) test. The moments
+of the distributions of the associated geometries are then extracted for efficient
+diversity computing. To ensure our AL paradigm selects samples with maximal
+uncertainties, we carefully design a Bayesian geometric graph neural network to
+compute uncertainties specifically for 3D molecular graphs. We pose active sampling as a quadratic programming (QP) problem using the proposed components.
+Experimental results demonstrate the effectiveness of our AL paradigm, as well as
+the proposed diversity and uncertainty methods. The code is publicly available at
+https://github.com/sronast/al_3dgraph.},
+  preview={ al_3d.png},
+  google_scholar_id={W7OEmFMy1HYC},
+  selected= {true}
+}
   
   @inproceedings{subedi2023client,
     title={A client-server deep federated learning for cross-domain surgical image segmentation},
